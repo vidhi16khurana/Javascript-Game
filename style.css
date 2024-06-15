@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* body {
+    background-image: url(https://img.freepik.com/free-vector/realistic-colorful-galaxy-background_23-2148965681.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+
+} */
+
+.heading {
+    height: 100px;
+    line-height: 5rem;
+    background-color: #113f67;
+    color: white;
+    font-size: 2rem;
+}
+
+.choice {
+    border-radius: 50%;
+    height: 175px;
+    width: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover {
+    background-color: #113f67;
+    cursor: pointer;
+
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    gap: 3rem;
+    
+}
+img {
+    border-radius: 50%;
+    height: 165px;
+    width: 165px;
+    object-fit: cover;
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+
+}
+
+#yourScore {
+    color: red;
+}
+
+#compScore {
+    color:blue;
+}
+
+#yourScore , #compScore {
+    font-size: 4rem;
+}
+
+.message-box {
+    margin-top: 5rem;
+    
+    
+}
+
+#msg {
+    background-color: #113f67;
+    color: white;
+    display: inline;
+    font-size: 2rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    
+}
